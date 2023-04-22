@@ -1,0 +1,17 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "deletePermissions" : "deletePermissionsMapping",
+    "getPermissions" : "getPermissionsMapping",
+    "createPermissions" : "createPermissionsMapping",
+    "updatePermissions" : "updatePermissionsMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

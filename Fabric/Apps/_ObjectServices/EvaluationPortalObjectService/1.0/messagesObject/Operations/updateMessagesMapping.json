@@ -1,0 +1,48 @@
+{
+  "operationConfig" : {
+    "name" : "updateMessages2727",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"ChatID\" outputpath=\"ChatID\"/>\n        <set-param inputpath=\"CreatedTs\" outputpath=\"CreatedTs\"/>\n        <set-param inputpath=\"FromUser\" outputpath=\"FromUser\"/>\n        <set-param inputpath=\"ID\" outputpath=\"ID\"/>\n        <set-param inputpath=\"IsRead\" outputpath=\"IsRead\"/>\n        <set-param inputpath=\"Message\" outputpath=\"Message\"/>\n        <set-param inputpath=\"MessageSubject\" outputpath=\"MessageSubject\"/>\n        <set-param inputpath=\"SentDate\" outputpath=\"SentDate\"/>\n        <set-param inputpath=\"ToUser\" outputpath=\"ToUser\"/>\n        <set-param inputpath=\"UpdatedTs\" outputpath=\"UpdatedTs\"/>\n    </map>\n</mapper>\n",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"response_in\" outputpath=\"response_out\">\n        <map inputpath=\"\" outputpath=\"\"/>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"messagesObject\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"EvaluationDBServices (1.0).updateMessages\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:messagesObject:ID:\",\"to\":\"target:ID:\",\"fromPort\":\"source:messagesObject:ID:\",\"toPort\":\"target:ID:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:messagesObject:ChatID:\",\"to\":\"target:ChatID:\",\"fromPort\":\"source:messagesObject:ChatID:\",\"toPort\":\"target:ChatID:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:messagesObject:FromUser:\",\"to\":\"target:FromUser:\",\"fromPort\":\"source:messagesObject:FromUser:\",\"toPort\":\"target:FromUser:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:messagesObject:ToUser:\",\"to\":\"target:ToUser:\",\"fromPort\":\"source:messagesObject:ToUser:\",\"toPort\":\"target:ToUser:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:messagesObject:MessageSubject:\",\"to\":\"target:MessageSubject:\",\"fromPort\":\"source:messagesObject:MessageSubject:\",\"toPort\":\"target:MessageSubject:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:messagesObject:Message:\",\"to\":\"target:Message:\",\"fromPort\":\"source:messagesObject:Message:\",\"toPort\":\"target:Message:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:messagesObject:SentDate:\",\"to\":\"target:SentDate:\",\"fromPort\":\"source:messagesObject:SentDate:\",\"toPort\":\"target:SentDate:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:messagesObject:IsRead:\",\"to\":\"target:IsRead:\",\"fromPort\":\"source:messagesObject:IsRead:\",\"toPort\":\"target:IsRead:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:messagesObject:CreatedTs:\",\"to\":\"target:CreatedTs:\",\"fromPort\":\"source:messagesObject:CreatedTs:\",\"toPort\":\"target:CreatedTs:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:messagesObject:UpdatedTs:\",\"to\":\"target:UpdatedTs:\",\"fromPort\":\"source:messagesObject:UpdatedTs:\",\"toPort\":\"target:UpdatedTs:\",\"visible\":true,\"common\":true}]}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"messagesObject\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"EvaluationDBServices (1.0).updateMessages\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "EvaluationDBServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "updateMessages"
+    },
+    "relationshipHierarchyMapping" : {
+      "name" : "messagesObject",
+      "children" : [ ],
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"ChatID\" outputpath=\"ChatID\"/>\n        <set-param inputpath=\"CreatedTs\" outputpath=\"CreatedTs\"/>\n        <set-param inputpath=\"FromUser\" outputpath=\"FromUser\"/>\n        <set-param inputpath=\"ID\" outputpath=\"ID\"/>\n        <set-param inputpath=\"IsRead\" outputpath=\"IsRead\"/>\n        <set-param inputpath=\"Message\" outputpath=\"Message\"/>\n        <set-param inputpath=\"MessageSubject\" outputpath=\"MessageSubject\"/>\n        <set-param inputpath=\"SentDate\" outputpath=\"SentDate\"/>\n        <set-param inputpath=\"ToUser\" outputpath=\"ToUser\"/>\n        <set-param inputpath=\"UpdatedTs\" outputpath=\"UpdatedTs\"/>\n    </map>\n</mapper>\n",
+      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"response_in\" outputpath=\"response_out\">\n        <map inputpath=\"\" outputpath=\"\"/>\n    </map>\n</mapper>\n",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"messagesObject\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"EvaluationDBServices (1.0).updateMessages\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:messagesObject:ID:\",\"to\":\"target:ID:\",\"fromPort\":\"source:messagesObject:ID:\",\"toPort\":\"target:ID:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:messagesObject:ChatID:\",\"to\":\"target:ChatID:\",\"fromPort\":\"source:messagesObject:ChatID:\",\"toPort\":\"target:ChatID:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:messagesObject:FromUser:\",\"to\":\"target:FromUser:\",\"fromPort\":\"source:messagesObject:FromUser:\",\"toPort\":\"target:FromUser:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:messagesObject:ToUser:\",\"to\":\"target:ToUser:\",\"fromPort\":\"source:messagesObject:ToUser:\",\"toPort\":\"target:ToUser:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:messagesObject:MessageSubject:\",\"to\":\"target:MessageSubject:\",\"fromPort\":\"source:messagesObject:MessageSubject:\",\"toPort\":\"target:MessageSubject:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:messagesObject:Message:\",\"to\":\"target:Message:\",\"fromPort\":\"source:messagesObject:Message:\",\"toPort\":\"target:Message:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:messagesObject:SentDate:\",\"to\":\"target:SentDate:\",\"fromPort\":\"source:messagesObject:SentDate:\",\"toPort\":\"target:SentDate:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:messagesObject:IsRead:\",\"to\":\"target:IsRead:\",\"fromPort\":\"source:messagesObject:IsRead:\",\"toPort\":\"target:IsRead:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:messagesObject:CreatedTs:\",\"to\":\"target:CreatedTs:\",\"fromPort\":\"source:messagesObject:CreatedTs:\",\"toPort\":\"target:CreatedTs:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:messagesObject:UpdatedTs:\",\"to\":\"target:UpdatedTs:\",\"fromPort\":\"source:messagesObject:UpdatedTs:\",\"toPort\":\"target:UpdatedTs:\",\"visible\":true,\"common\":true}]}",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"messagesObject\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"EvaluationDBServices (1.0).updateMessages\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

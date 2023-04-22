@@ -1,0 +1,17 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "deleteMessages" : "deleteMessagesMapping",
+    "updateMessages" : "updateMessagesMapping",
+    "createMessages" : "createMessagesMapping",
+    "getMessages" : "getMessagesMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "operationConfig" : {
+    "name" : "deleteUser1191",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">  <map inputpath=\"request_in\" outputpath=\"request_out\">    <set-param inputpath=\"Filter\" outputpath=\"$filter\"/>    <set-param inputpath=\"ID\" outputpath=\"ID\"/>  </map></mapper>",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"response_in\" outputpath=\"response_out\">\n        <map inputpath=\"\" outputpath=\"\"/>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"usersObject\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"EvaluationDBServices (1.0).deleteUser\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:usersObject:ID:\",\"to\":\"target:ID:\",\"fromPort\":\"source:usersObject:ID:\",\"toPort\":\"target:ID:\",\"visible\":true,\"common\":true},{\"from\":\"source\",\"to\":\"source:usersObject\",\"fromPort\":\"source\",\"toPort\":\"source:usersObject\",\"visible\":true,\"common\":false},{\"from\":\"source:usersObject\",\"to\":\"source:usersObject:t_p_fields\",\"fromPort\":\"source:usersObject\",\"toPort\":\"source:usersObject:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"source:usersObject:t_p_fields\",\"to\":\"source:usersObject:ID:\",\"fromPort\":\"source:usersObject:t_p_fields\",\"toPort\":\"source:usersObject:ID:\",\"visible\":true,\"common\":false},{\"from\":\"source:usersObject:t_p_fields\",\"to\":\"source:usersObject:Filter:\",\"fromPort\":\"source:usersObject:t_p_fields\",\"toPort\":\"source:usersObject:Filter:\",\"visible\":true,\"common\":false},{\"from\":\"target\",\"to\":\"target:t_p_parameters\",\"fromPort\":\"target\",\"toPort\":\"target:t_p_parameters\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:$filter:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:$filter:\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:ID:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:ID:\",\"visible\":true,\"common\":false},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:usersObject:Filter:\",\"to\":\"target:$filter:\",\"fromPort\":\"source:usersObject:Filter:\",\"toPort\":\"target:$filter:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"usersObject\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"EvaluationDBServices (1.0).deleteUser\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "EvaluationDBServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "deleteUser"
+    },
+    "relationshipHierarchyMapping" : {
+      "name" : "usersObject",
+      "children" : [ ],
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">  <map inputpath=\"request_in\" outputpath=\"request_out\">    <set-param inputpath=\"Filter\" outputpath=\"$filter\"/>    <set-param inputpath=\"ID\" outputpath=\"ID\"/>  </map></mapper>",
+      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"response_in\" outputpath=\"response_out\">\n        <map inputpath=\"\" outputpath=\"\"/>\n    </map>\n</mapper>\n",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"usersObject\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"EvaluationDBServices (1.0).deleteUser\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:usersObject:ID:\",\"to\":\"target:ID:\",\"fromPort\":\"source:usersObject:ID:\",\"toPort\":\"target:ID:\",\"visible\":true,\"common\":true},{\"from\":\"source\",\"to\":\"source:usersObject\",\"fromPort\":\"source\",\"toPort\":\"source:usersObject\",\"visible\":true,\"common\":false},{\"from\":\"source:usersObject\",\"to\":\"source:usersObject:t_p_fields\",\"fromPort\":\"source:usersObject\",\"toPort\":\"source:usersObject:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"source:usersObject:t_p_fields\",\"to\":\"source:usersObject:ID:\",\"fromPort\":\"source:usersObject:t_p_fields\",\"toPort\":\"source:usersObject:ID:\",\"visible\":true,\"common\":false},{\"from\":\"source:usersObject:t_p_fields\",\"to\":\"source:usersObject:Filter:\",\"fromPort\":\"source:usersObject:t_p_fields\",\"toPort\":\"source:usersObject:Filter:\",\"visible\":true,\"common\":false},{\"from\":\"target\",\"to\":\"target:t_p_parameters\",\"fromPort\":\"target\",\"toPort\":\"target:t_p_parameters\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:$filter:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:$filter:\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:ID:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:ID:\",\"visible\":true,\"common\":false},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:usersObject:Filter:\",\"to\":\"target:$filter:\",\"fromPort\":\"source:usersObject:Filter:\",\"toPort\":\"target:$filter:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"usersObject\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"EvaluationDBServices (1.0).deleteUser\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

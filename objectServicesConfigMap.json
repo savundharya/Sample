@@ -1,0 +1,233 @@
+{
+    "EvaluationPortalObjectService_EmailServicesObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "EmailServicesObject",
+        "objectid": "114"
+    },
+    "EvaluationPortalObjectService_appStatusObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "appStatusObject",
+        "objectid": "115"
+    },
+    "EvaluationPortalObjectService_applicationFilesObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "applicationFilesObject",
+        "objectid": "116"
+    },
+    "EvaluationPortalObjectService_applicationsObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "applicationsObject",
+        "objectid": "117"
+    },
+    "EvaluationPortalObjectService_assessmentFilesObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "assessmentFilesObject",
+        "objectid": "118"
+    },
+    "EvaluationPortalObjectService_assessmentsObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "assessmentsObject",
+        "objectid": "119"
+    },
+    "EvaluationPortalObjectService_chatObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "chatObject",
+        "objectid": "120"
+    },
+    "EvaluationPortalObjectService_chattableObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "chattableObject",
+        "objectid": "121"
+    },
+    "EvaluationPortalObjectService_evaluatorChatObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "evaluatorChatObject",
+        "objectid": "122"
+    },
+    "EvaluationPortalObjectService_getApplicationDetails": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "getApplicationDetails",
+        "objectid": "123"
+    },
+    "EvaluationPortalObjectService_loginObj": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "loginObj",
+        "objectid": "124"
+    },
+    "EvaluationPortalObjectService_mapAssessmentObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "mapAssessmentObject",
+        "objectid": "125"
+    },
+    "EvaluationPortalObjectService_messagesObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "messagesObject",
+        "objectid": "126"
+    },
+    "EvaluationPortalObjectService_profileObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "profileObject",
+        "objectid": "127"
+    },
+    "EvaluationPortalObjectService_resetObj": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "resetObj",
+        "objectid": "128"
+    },
+    "EvaluationPortalObjectService_roleBasedAssessmentObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "roleBasedAssessmentObject",
+        "objectid": "129"
+    },
+    "EvaluationPortalObjectService_testObj": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "testObj",
+        "objectid": "131"
+    },
+    "EvaluationPortalObjectService_userRolesObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "userRolesObject",
+        "objectid": "132"
+    },
+    "EvaluationPortalObjectService_usersObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "usersObject",
+        "objectid": "133"
+    },
+    "EvaluationPortalObjectService_viewApplicationObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "viewApplicationObject",
+        "objectid": "134"
+    },
+    "EvaluationPortalObjectService_viewAssessmentObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "viewAssessmentObject",
+        "objectid": "135"
+    },
+    "EvaluationPortalObjectService_notificationObjectService": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "notificationObjectService",
+        "objectid": "646"
+    },
+    "EvaluationPortalObjectService_mcqDetailsObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "mcqDetailsObject",
+        "objectid": "742"
+    },
+    "EvaluationPortalObjectService_permissionsObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "permissionsObject",
+        "objectid": "762"
+    },
+    "EvaluationPortalObjectService_rolePermissionsObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "rolePermissionsObject",
+        "objectid": "763"
+    },
+    "EvaluationPortalObjectService_validateMcqObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "validateMcqObject",
+        "objectid": "764"
+    },
+    "EvaluationPortalObjectService_masterDataObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "masterDataObject",
+        "objectid": "826"
+    },
+    "EvaluationPortalObjectService_candidateInfoGetObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "candidateInfoGetObject",
+        "objectid": "867"
+    },
+    "EvaluationPortalObjectService_candidateApplicationsObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "candidateApplicationsObject",
+        "objectid": "910"
+    },
+    "EvaluationPortalObjectService_candidateInfoObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "candidateInfoObject",
+        "objectid": "943"
+    },
+    "EvaluationPortalObjectService_candidateStatusObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "candidateStatusObject",
+        "objectid": "963"
+    },
+    "EvaluationPortalObjectService_resumeApprovalObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "resumeApprovalObject",
+        "objectid": "973"
+    },
+    "EvaluationPortalObjectService_candidateAssessmentApprovalObject": {
+        "servicename": "EvaluationPortalObjectService",
+        "serviceid": "1f811b15-7b3e-43ee-ba20-e25f16c94f77",
+        "type": "objectsvcs",
+        "objectname": "candidateAssessmentApprovalObject",
+        "objectid": "1007"
+    }
+}

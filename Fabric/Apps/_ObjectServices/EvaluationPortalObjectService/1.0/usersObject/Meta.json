@@ -1,0 +1,19 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getUserDetails" : "getUserDetailsMapping",
+    "resetPassword" : "resetPasswordMapping",
+    "updateUserDetails" : "updateUserDetailsMapping",
+    "loginUser" : "loginUserMapping",
+    "deleteUser" : "deleteUserMapping",
+    "createUser" : "createUserMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

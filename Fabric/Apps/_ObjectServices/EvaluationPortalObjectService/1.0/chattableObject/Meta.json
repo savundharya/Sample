@@ -1,0 +1,17 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "createChattable" : "createChattableMapping",
+    "deleteChattable" : "deleteChattableMapping",
+    "updateChattable" : "updateChattableMapping",
+    "getChattable" : "getChattableMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

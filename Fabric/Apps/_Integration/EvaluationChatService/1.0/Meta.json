@@ -1,0 +1,8 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "EvaluationPortalServices.jar",
+    "type" : "servicejar"
+  } ],
+  "empty" : true
+}

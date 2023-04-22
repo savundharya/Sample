@@ -1,0 +1,48 @@
+{
+  "operationConfig" : {
+    "name" : "createAssessment8384",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"AssessmentInstructions\" outputpath=\"AssessmentInstructions\"/>\n        <set-param inputpath=\"AssessmentName\" outputpath=\"AssessmentName\"/>\n        <set-param inputpath=\"AssessmentType\" outputpath=\"AssessmentType\"/>\n        <set-param inputpath=\"ID\" outputpath=\"ID\"/>\n    </map>\n</mapper>\n",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"response_in\" outputpath=\"response_out\">\n        <map inputpath=\"\" outputpath=\"\"/>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"assessmentsObject\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"EvaluationDBServices (1.0).createAssessment\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:assessmentsObject:ID:\",\"to\":\"target:ID:\",\"fromPort\":\"source:assessmentsObject:ID:\",\"toPort\":\"target:ID:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:assessmentsObject:AssessmentName:\",\"to\":\"target:AssessmentName:\",\"fromPort\":\"source:assessmentsObject:AssessmentName:\",\"toPort\":\"target:AssessmentName:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:assessmentsObject:AssessmentInstructions:\",\"to\":\"target:AssessmentInstructions:\",\"fromPort\":\"source:assessmentsObject:AssessmentInstructions:\",\"toPort\":\"target:AssessmentInstructions:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:assessmentsObject:AssessmentType:\",\"to\":\"target:AssessmentType:\",\"fromPort\":\"source:assessmentsObject:AssessmentType:\",\"toPort\":\"target:AssessmentType:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"assessmentsObject\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"EvaluationDBServices (1.0).createAssessment\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "EvaluationDBServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "createAssessment"
+    },
+    "relationshipHierarchyMapping" : {
+      "name" : "assessmentsObject",
+      "children" : [ ],
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">  <map inputpath=\"request_in\" outputpath=\"request_out\">    <set-param inputpath=\"AssessmentInstructions\" outputpath=\"AssessmentInstructions\"/>    <set-param inputpath=\"AssessmentName\" outputpath=\"AssessmentName\"/>    <set-param inputpath=\"AssessmentType\" outputpath=\"AssessmentType\"/>    <set-param inputpath=\"ID\" outputpath=\"ID\"/>  </map></mapper>",
+      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"response_in\" outputpath=\"response_out\">\n        <map inputpath=\"\" outputpath=\"\"/>\n    </map>\n</mapper>\n",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"assessmentsObject\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"EvaluationDBServices (1.0).createAssessment\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:assessmentsObject:ID:\",\"to\":\"target:ID:\",\"fromPort\":\"source:assessmentsObject:ID:\",\"toPort\":\"target:ID:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:assessmentsObject:AssessmentName:\",\"to\":\"target:AssessmentName:\",\"fromPort\":\"source:assessmentsObject:AssessmentName:\",\"toPort\":\"target:AssessmentName:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:assessmentsObject:AssessmentInstructions:\",\"to\":\"target:AssessmentInstructions:\",\"fromPort\":\"source:assessmentsObject:AssessmentInstructions:\",\"toPort\":\"target:AssessmentInstructions:\",\"visible\":true,\"common\":true},{\"from\":\"source\",\"to\":\"source:assessmentsObject\",\"fromPort\":\"source\",\"toPort\":\"source:assessmentsObject\",\"visible\":true,\"common\":false},{\"from\":\"source:assessmentsObject\",\"to\":\"source:assessmentsObject:t_p_fields\",\"fromPort\":\"source:assessmentsObject\",\"toPort\":\"source:assessmentsObject:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"source:assessmentsObject:t_p_fields\",\"to\":\"source:assessmentsObject:ID:\",\"fromPort\":\"source:assessmentsObject:t_p_fields\",\"toPort\":\"source:assessmentsObject:ID:\",\"visible\":true,\"common\":false},{\"from\":\"source:assessmentsObject:t_p_fields\",\"to\":\"source:assessmentsObject:Filter:\",\"fromPort\":\"source:assessmentsObject:t_p_fields\",\"toPort\":\"source:assessmentsObject:Filter:\",\"visible\":true,\"common\":false},{\"from\":\"source:assessmentsObject:t_p_fields\",\"to\":\"source:assessmentsObject:AssessmentName:\",\"fromPort\":\"source:assessmentsObject:t_p_fields\",\"toPort\":\"source:assessmentsObject:AssessmentName:\",\"visible\":true,\"common\":false},{\"from\":\"source:assessmentsObject:t_p_fields\",\"to\":\"source:assessmentsObject:AssessmentInstructions:\",\"fromPort\":\"source:assessmentsObject:t_p_fields\",\"toPort\":\"source:assessmentsObject:AssessmentInstructions:\",\"visible\":true,\"common\":false},{\"from\":\"source:assessmentsObject:t_p_fields\",\"to\":\"source:assessmentsObject:CreatedTs:\",\"fromPort\":\"source:assessmentsObject:t_p_fields\",\"toPort\":\"source:assessmentsObject:CreatedTs:\",\"visible\":true,\"common\":false},{\"from\":\"source:assessmentsObject:t_p_fields\",\"to\":\"source:assessmentsObject:UpdatedTs:\",\"fromPort\":\"source:assessmentsObject:t_p_fields\",\"toPort\":\"source:assessmentsObject:UpdatedTs:\",\"visible\":true,\"common\":false},{\"from\":\"source:assessmentsObject:t_p_fields\",\"to\":\"source:assessmentsObject:AssessmentType:\",\"fromPort\":\"source:assessmentsObject:t_p_fields\",\"toPort\":\"source:assessmentsObject:AssessmentType:\",\"visible\":true,\"common\":false},{\"from\":\"target\",\"to\":\"target:t_p_parameters\",\"fromPort\":\"target\",\"toPort\":\"target:t_p_parameters\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:AssessmentFile:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:AssessmentFile:\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:AssessmentInstructions:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:AssessmentInstructions:\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:AssessmentName:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:AssessmentName:\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:AssessmentType:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:AssessmentType:\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:ID:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:ID:\",\"visible\":true,\"common\":false},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:assessmentsObject:AssessmentType:\",\"to\":\"target:AssessmentType:\",\"fromPort\":\"source:assessmentsObject:AssessmentType:\",\"toPort\":\"target:AssessmentType:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"assessmentsObject\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"EvaluationDBServices (1.0).createAssessment\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

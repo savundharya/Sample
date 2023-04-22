@@ -1,0 +1,17 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "updateProfile" : "updateProfileMapping",
+    "deleteProfile" : "deleteProfileMapping",
+    "createProfile" : "createProfileMapping",
+    "getProfile" : "getProfileMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "candidateinfoUpdate" : "candidateinfoUpdateMapping",
+    "candidateinfoCreate" : "candidateinfoCreateMapping",
+    "candidateinfoGet" : "candidateinfoGetMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

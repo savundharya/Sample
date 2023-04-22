@@ -1,0 +1,17 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getUserRole" : "getUserRoleMapping",
+    "updateUserRole" : "updateUserRoleMapping",
+    "deleteUserRole" : "deleteUserRoleMapping",
+    "createUserRole" : "createUserRoleMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "operationConfig" : {
+    "name" : "createProfile5384",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"Image\" outputpath=\"Image\"/>\n        <set-param inputpath=\"name\" outputpath=\"name\"/>\n        <set-param inputpath=\"userID\" outputpath=\"userID\"/>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"profileObject\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"EvaluationDBServices (1.0).createProfile\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:profileObject:userID:\",\"to\":\"target:userID:\",\"fromPort\":\"source:profileObject:userID:\",\"toPort\":\"target:userID:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:profileObject:name:\",\"to\":\"target:name:\",\"fromPort\":\"source:profileObject:name:\",\"toPort\":\"target:name:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:profileObject:Image:\",\"to\":\"target:Image:\",\"fromPort\":\"source:profileObject:Image:\",\"toPort\":\"target:Image:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"profileObject\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"EvaluationDBServices (1.0).createProfile\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "EvaluationDBServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "createProfile"
+    },
+    "relationshipHierarchyMapping" : {
+      "name" : "profileObject",
+      "children" : [ ],
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">  <map inputpath=\"request_in\" outputpath=\"request_out\">    <set-param inputpath=\"Image\" outputpath=\"Image\"/>    <set-param inputpath=\"name\" outputpath=\"name\"/>    <set-param inputpath=\"userID\" outputpath=\"userID\"/>  </map></mapper>",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"profileObject\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"EvaluationDBServices (1.0).createProfile\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"from\":\"source\",\"to\":\"source:profileObject\",\"fromPort\":\"source\",\"toPort\":\"source:profileObject\",\"visible\":true,\"common\":false},{\"from\":\"source:profileObject\",\"to\":\"source:profileObject:t_p_fields\",\"fromPort\":\"source:profileObject\",\"toPort\":\"source:profileObject:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"source:profileObject:t_p_fields\",\"to\":\"source:profileObject:userID:\",\"fromPort\":\"source:profileObject:t_p_fields\",\"toPort\":\"source:profileObject:userID:\",\"visible\":true,\"common\":false},{\"from\":\"source:profileObject:t_p_fields\",\"to\":\"source:profileObject:name:\",\"fromPort\":\"source:profileObject:t_p_fields\",\"toPort\":\"source:profileObject:name:\",\"visible\":true,\"common\":false},{\"from\":\"source:profileObject:t_p_fields\",\"to\":\"source:profileObject:Image:\",\"fromPort\":\"source:profileObject:t_p_fields\",\"toPort\":\"source:profileObject:Image:\",\"visible\":true,\"common\":false},{\"from\":\"target\",\"to\":\"target:t_p_parameters\",\"fromPort\":\"target\",\"toPort\":\"target:t_p_parameters\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:Image:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:Image:\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:name:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:name:\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:userID:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:userID:\",\"visible\":true,\"common\":false},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:profileObject:userID:\",\"to\":\"target:userID:\",\"fromPort\":\"source:profileObject:userID:\",\"toPort\":\"target:userID:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:profileObject:name:\",\"to\":\"target:name:\",\"fromPort\":\"source:profileObject:name:\",\"toPort\":\"target:name:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:profileObject:Image:\",\"to\":\"target:Image:\",\"fromPort\":\"source:profileObject:Image:\",\"toPort\":\"target:Image:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"profileObject\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"EvaluationDBServices (1.0).createProfile\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

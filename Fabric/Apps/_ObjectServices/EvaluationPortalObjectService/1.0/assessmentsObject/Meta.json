@@ -1,0 +1,17 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "deleteAssessment" : "deleteAssessmentMapping",
+    "updateAssessment" : "updateAssessmentMapping",
+    "createAssessments" : "createAssessmentsMapping",
+    "getAssessment" : "getAssessmentMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "subType" : "customapp",
+  "description" : "EvaluationPortal",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "Email",
+    "version" : "1.0",
+    "etag" : "8b853902-bab7-4954-a62f-7c64c1abf202"
+  }, {
+    "name" : "EmailAdapter",
+    "version" : "1.0",
+    "etag" : "95729b4e-69c0-4396-a43d-b557b514aad6"
+  }, {
+    "name" : "EmailCheckerService",
+    "version" : "1.0",
+    "etag" : "49a8ef02-dc59-4c65-8177-5770e6502826"
+  }, {
+    "name" : "EmailValidation",
+    "version" : "1.0",
+    "etag" : "e8d92d4b-6ddb-40ee-9772-25652b8dd44a"
+  }, {
+    "name" : "EvaluationChatService",
+    "version" : "1.0",
+    "etag" : "39031e65-5725-49e1-89b0-12d477459819"
+  }, {
+    "name" : "EvaluationDBServices",
+    "version" : "1.0",
+    "etag" : "f326bcbe-89b1-48f9-857a-aade8002c69f"
+  }, {
+    "name" : "TestSrvc",
+    "version" : "1.0",
+    "etag" : "16606691-a2a2-46ec-8d0e-e50e269fabda"
+  } ],
+  "orchSvcs" : [ {
+    "name" : "evaluatorChatService",
+    "version" : "1.0",
+    "etag" : "bed82cb9-fc25-41bd-b06a-5f718265aa89"
+  }, {
+    "name" : "MapAssessment",
+    "version" : "1.0",
+    "etag" : "5bb5e483-e66c-4282-8057-3f8c9819c9c7"
+  }, {
+    "name" : "createMultiApplciation",
+    "version" : "1.0",
+    "etag" : "13b60a95-9be6-46b4-897e-abb9de46efc1"
+  }, {
+    "name" : "createAssginedChat",
+    "version" : "1.0",
+    "etag" : "11ce1b16-cf7d-4c77-8c33-e62f0b58376c"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "EvaluationPortalObjectService",
+    "version" : "1.0",
+    "etag" : "3daf1961-d6e9-484b-8840-0cdc8a67ad95"
+  } ],
+  "identity" : [ "Login", "mockLogin", "samplelogin" ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

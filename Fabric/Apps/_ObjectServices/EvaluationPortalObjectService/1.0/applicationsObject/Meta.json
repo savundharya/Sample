@@ -1,0 +1,18 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "updateApplication" : "updateApplicationMapping",
+    "createApplication" : "createApplicationMapping",
+    "getApplications" : "getApplicationsMapping",
+    "deleteApplication" : "deleteApplicationMapping",
+    "createMultiApplication" : "createMultiApplicationMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "operationConfig" : {
+    "name" : "AssessmentApproval2830",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"applicationID\" outputpath=\"applicationID\"/>\n        <set-param inputpath=\"Approver\" outputpath=\"Approver\"/>\n        <set-param inputpath=\"CurrentRound\" outputpath=\"CurrentRound\"/>\n        <set-param inputpath=\"Status\" outputpath=\"Status\"/>\n        <set-param inputpath=\"userID\" outputpath=\"userID\"/>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"candidateAssessmentApprovalObject\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"EvaluationChatService (1.0).AssessmentApproval\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:candidateAssessmentApprovalObject:applicationID:\",\"to\":\"target:applicationID:\",\"fromPort\":\"source:candidateAssessmentApprovalObject:applicationID:\",\"toPort\":\"target:applicationID:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:candidateAssessmentApprovalObject:Approver:\",\"to\":\"target:Approver:\",\"fromPort\":\"source:candidateAssessmentApprovalObject:Approver:\",\"toPort\":\"target:Approver:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:candidateAssessmentApprovalObject:CurrentRound:\",\"to\":\"target:CurrentRound:\",\"fromPort\":\"source:candidateAssessmentApprovalObject:CurrentRound:\",\"toPort\":\"target:CurrentRound:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:candidateAssessmentApprovalObject:Status:\",\"to\":\"target:Status:\",\"fromPort\":\"source:candidateAssessmentApprovalObject:Status:\",\"toPort\":\"target:Status:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:candidateAssessmentApprovalObject:userID:\",\"to\":\"target:userID:\",\"fromPort\":\"source:candidateAssessmentApprovalObject:userID:\",\"toPort\":\"target:userID:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"candidateAssessmentApprovalObject\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"EvaluationChatService (1.0).AssessmentApproval\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "EvaluationChatService",
+      "serviceVersion" : "1.0",
+      "operationName" : "AssessmentApproval"
+    },
+    "relationshipHierarchyMapping" : {
+      "name" : "candidateAssessmentApprovalObject",
+      "children" : [ ],
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"applicationID\" outputpath=\"applicationID\"/>\n        <set-param inputpath=\"Approver\" outputpath=\"Approver\"/>\n        <set-param inputpath=\"CurrentRound\" outputpath=\"CurrentRound\"/>\n        <set-param inputpath=\"Status\" outputpath=\"Status\"/>\n        <set-param inputpath=\"userID\" outputpath=\"userID\"/>\n    </map>\n</mapper>\n",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"candidateAssessmentApprovalObject\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"EvaluationChatService (1.0).AssessmentApproval\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:candidateAssessmentApprovalObject:applicationID:\",\"to\":\"target:applicationID:\",\"fromPort\":\"source:candidateAssessmentApprovalObject:applicationID:\",\"toPort\":\"target:applicationID:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:candidateAssessmentApprovalObject:Approver:\",\"to\":\"target:Approver:\",\"fromPort\":\"source:candidateAssessmentApprovalObject:Approver:\",\"toPort\":\"target:Approver:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:candidateAssessmentApprovalObject:CurrentRound:\",\"to\":\"target:CurrentRound:\",\"fromPort\":\"source:candidateAssessmentApprovalObject:CurrentRound:\",\"toPort\":\"target:CurrentRound:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:candidateAssessmentApprovalObject:Status:\",\"to\":\"target:Status:\",\"fromPort\":\"source:candidateAssessmentApprovalObject:Status:\",\"toPort\":\"target:Status:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:candidateAssessmentApprovalObject:userID:\",\"to\":\"target:userID:\",\"fromPort\":\"source:candidateAssessmentApprovalObject:userID:\",\"toPort\":\"target:userID:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"candidateAssessmentApprovalObject\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"EvaluationChatService (1.0).AssessmentApproval\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

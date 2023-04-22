@@ -1,0 +1,8 @@
+{
+  "filename": "EvaluationPortal.zip",
+  "channels": "responsive_web",
+  "upgradable": false,
+  "displayname": "EvaluationPortal",
+  "description": "Binary for EvaluationPortal",
+  "version": "1.0.0"
+}

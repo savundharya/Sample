@@ -1,0 +1,48 @@
+{
+  "operationConfig" : {
+    "name" : "SubmitAssessment5307",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"ApplicantComments\" outputpath=\"ApplicantComments\"/>\n        <set-param inputpath=\"ApplicationID\" outputpath=\"applicationID\"/>\n        <set-param inputpath=\"AssessmentID\" outputpath=\"assessmentID\"/>\n        <set-param inputpath=\"AssessmentName\" outputpath=\"assessmentName\"/>\n        <set-param inputpath=\"EvaluatorID\" outputpath=\"evaluatorID\"/>\n        <set-param inputpath=\"Name\" outputpath=\"Name\"/>\n    </map>\n</mapper>\n",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"response_in\" outputpath=\"response_out\">\n        <map inputpath=\"\" outputpath=\"\"/>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"EmailServicesObject\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"EvaluationChatService (1.0).SubmitAssessment\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:EmailServicesObject:Name:\",\"to\":\"target:Name:\",\"fromPort\":\"source:EmailServicesObject:Name:\",\"toPort\":\"target:Name:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:EmailServicesObject:EvaluatorID:\",\"to\":\"target:evaluatorID:\",\"fromPort\":\"source:EmailServicesObject:EvaluatorID:\",\"toPort\":\"target:evaluatorID:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:EmailServicesObject:ApplicationID:\",\"to\":\"target:applicationID:\",\"fromPort\":\"source:EmailServicesObject:ApplicationID:\",\"toPort\":\"target:applicationID:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:EmailServicesObject:AssessmentID:\",\"to\":\"target:assessmentID:\",\"fromPort\":\"source:EmailServicesObject:AssessmentID:\",\"toPort\":\"target:assessmentID:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:EmailServicesObject:AssessmentName:\",\"to\":\"target:assessmentName:\",\"fromPort\":\"source:EmailServicesObject:AssessmentName:\",\"toPort\":\"target:assessmentName:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:EmailServicesObject:ApplicantComments:\",\"to\":\"target:ApplicantComments:\",\"fromPort\":\"source:EmailServicesObject:ApplicantComments:\",\"toPort\":\"target:ApplicantComments:\",\"visible\":true,\"common\":true}]}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"EmailServicesObject\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"EvaluationChatService (1.0).SubmitAssessment\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "EvaluationChatService",
+      "serviceVersion" : "1.0",
+      "operationName" : "SubmitAssessment"
+    },
+    "relationshipHierarchyMapping" : {
+      "name" : "EmailServicesObject",
+      "children" : [ ],
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"ApplicantComments\" outputpath=\"ApplicantComments\"/>\n        <set-param inputpath=\"ApplicationID\" outputpath=\"applicationID\"/>\n        <set-param inputpath=\"AssessmentID\" outputpath=\"assessmentID\"/>\n        <set-param inputpath=\"AssessmentName\" outputpath=\"assessmentName\"/>\n        <set-param inputpath=\"EvaluatorID\" outputpath=\"evaluatorID\"/>\n        <set-param inputpath=\"Name\" outputpath=\"Name\"/>\n    </map>\n</mapper>\n",
+      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"response_in\" outputpath=\"response_out\">\n        <map inputpath=\"\" outputpath=\"\"/>\n    </map>\n</mapper>\n",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"EmailServicesObject\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"EvaluationChatService (1.0).SubmitAssessment\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:EmailServicesObject:Name:\",\"to\":\"target:Name:\",\"fromPort\":\"source:EmailServicesObject:Name:\",\"toPort\":\"target:Name:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:EmailServicesObject:EvaluatorID:\",\"to\":\"target:evaluatorID:\",\"fromPort\":\"source:EmailServicesObject:EvaluatorID:\",\"toPort\":\"target:evaluatorID:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:EmailServicesObject:ApplicationID:\",\"to\":\"target:applicationID:\",\"fromPort\":\"source:EmailServicesObject:ApplicationID:\",\"toPort\":\"target:applicationID:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:EmailServicesObject:AssessmentID:\",\"to\":\"target:assessmentID:\",\"fromPort\":\"source:EmailServicesObject:AssessmentID:\",\"toPort\":\"target:assessmentID:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:EmailServicesObject:AssessmentName:\",\"to\":\"target:assessmentName:\",\"fromPort\":\"source:EmailServicesObject:AssessmentName:\",\"toPort\":\"target:assessmentName:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:EmailServicesObject:ApplicantComments:\",\"to\":\"target:ApplicantComments:\",\"fromPort\":\"source:EmailServicesObject:ApplicantComments:\",\"toPort\":\"target:ApplicantComments:\",\"visible\":true,\"common\":true}]}",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"EmailServicesObject\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"EvaluationChatService (1.0).SubmitAssessment\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

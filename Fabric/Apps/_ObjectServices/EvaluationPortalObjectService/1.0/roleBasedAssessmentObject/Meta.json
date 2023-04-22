@@ -1,0 +1,17 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "createRoleAssessment" : "createRoleAssessmentMapping",
+    "updateRoleAssessment" : "updateRoleAssessmentMapping",
+    "deleteRoleBasedAssessment" : "deleteRoleBasedAssessmentMapping",
+    "getRoleAssessment" : "getRoleAssessmentMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}
