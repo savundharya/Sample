@@ -11,183 +11,63 @@
             },
             [
                 {
-                    "lblDescription": {
+                    "lblName": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Sub-Heading"
-                    },
-                    "lblHeading": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Heading"
-                    },
-                    "lblStrip": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": ""
-                    },
-                    "lblTime": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Timestamp"
+                        "text": "Label"
                     }
                 },
                 {
-                    "lblDescription": {
+                    "lblName": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Sub-Heading"
-                    },
-                    "lblHeading": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Heading"
-                    },
-                    "lblStrip": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": ""
-                    },
-                    "lblTime": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Timestamp"
+                        "text": "Label"
                     }
                 },
                 {
-                    "lblDescription": {
+                    "lblName": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Sub-Heading"
-                    },
-                    "lblHeading": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Heading"
-                    },
-                    "lblStrip": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": ""
-                    },
-                    "lblTime": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Timestamp"
+                        "text": "Label"
                     }
                 },
                 {
-                    "lblDescription": {
+                    "lblName": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Sub-Heading"
-                    },
-                    "lblHeading": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Heading"
-                    },
-                    "lblStrip": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": ""
-                    },
-                    "lblTime": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Timestamp"
+                        "text": "Label"
                     }
                 },
                 {
-                    "lblDescription": {
+                    "lblName": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Sub-Heading"
-                    },
-                    "lblHeading": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Heading"
-                    },
-                    "lblStrip": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": ""
-                    },
-                    "lblTime": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Timestamp"
+                        "text": "Label"
                     }
                 },
                 {
-                    "lblDescription": {
+                    "lblName": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Sub-Heading"
-                    },
-                    "lblHeading": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Heading"
-                    },
-                    "lblStrip": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": ""
-                    },
-                    "lblTime": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Timestamp"
+                        "text": "Label"
                     }
                 },
                 {
-                    "lblDescription": {
+                    "lblName": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Sub-Heading"
-                    },
-                    "lblHeading": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Heading"
-                    },
-                    "lblStrip": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": ""
-                    },
-                    "lblTime": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Timestamp"
+                        "text": "Label"
                     }
                 },
                 {
-                    "lblDescription": {
+                    "lblName": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Sub-Heading"
-                    },
-                    "lblHeading": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Heading"
-                    },
-                    "lblStrip": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": ""
-                    },
-                    "lblTime": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Timestamp"
+                        "text": "Label"
                     }
                 },
                 {
-                    "lblDescription": {
+                    "lblName": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Sub-Heading"
-                    },
-                    "lblHeading": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Heading"
-                    },
-                    "lblStrip": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": ""
-                    },
-                    "lblTime": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Timestamp"
+                        "text": "Label"
                     }
                 },
                 {
-                    "lblDescription": {
+                    "lblName": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Sub-Heading"
-                    },
-                    "lblHeading": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Heading"
-                    },
-                    "lblStrip": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": ""
-                    },
-                    "lblTime": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Timestamp"
+                        "text": "Label"
                     }
                 }
             ]
@@ -201,183 +81,63 @@
             },
             [
                 {
-                    "lblDescription": {
+                    "lblName": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Sub-Heading"
-                    },
-                    "lblHeading": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Heading"
-                    },
-                    "lblStrip": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": ""
-                    },
-                    "lblTime": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Timestamp"
+                        "text": "Label"
                     }
                 },
                 {
-                    "lblDescription": {
+                    "lblName": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Sub-Heading"
-                    },
-                    "lblHeading": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Heading"
-                    },
-                    "lblStrip": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": ""
-                    },
-                    "lblTime": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Timestamp"
+                        "text": "Label"
                     }
                 },
                 {
-                    "lblDescription": {
+                    "lblName": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Sub-Heading"
-                    },
-                    "lblHeading": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Heading"
-                    },
-                    "lblStrip": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": ""
-                    },
-                    "lblTime": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Timestamp"
+                        "text": "Label"
                     }
                 },
                 {
-                    "lblDescription": {
+                    "lblName": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Sub-Heading"
-                    },
-                    "lblHeading": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Heading"
-                    },
-                    "lblStrip": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": ""
-                    },
-                    "lblTime": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Timestamp"
+                        "text": "Label"
                     }
                 },
                 {
-                    "lblDescription": {
+                    "lblName": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Sub-Heading"
-                    },
-                    "lblHeading": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Heading"
-                    },
-                    "lblStrip": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": ""
-                    },
-                    "lblTime": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Timestamp"
+                        "text": "Label"
                     }
                 },
                 {
-                    "lblDescription": {
+                    "lblName": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Sub-Heading"
-                    },
-                    "lblHeading": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Heading"
-                    },
-                    "lblStrip": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": ""
-                    },
-                    "lblTime": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Timestamp"
+                        "text": "Label"
                     }
                 },
                 {
-                    "lblDescription": {
+                    "lblName": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Sub-Heading"
-                    },
-                    "lblHeading": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Heading"
-                    },
-                    "lblStrip": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": ""
-                    },
-                    "lblTime": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Timestamp"
+                        "text": "Label"
                     }
                 },
                 {
-                    "lblDescription": {
+                    "lblName": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Sub-Heading"
-                    },
-                    "lblHeading": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Heading"
-                    },
-                    "lblStrip": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": ""
-                    },
-                    "lblTime": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Timestamp"
+                        "text": "Label"
                     }
                 },
                 {
-                    "lblDescription": {
+                    "lblName": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Sub-Heading"
-                    },
-                    "lblHeading": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Heading"
-                    },
-                    "lblStrip": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": ""
-                    },
-                    "lblTime": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Timestamp"
+                        "text": "Label"
                     }
                 },
                 {
-                    "lblDescription": {
+                    "lblName": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Sub-Heading"
-                    },
-                    "lblHeading": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Heading"
-                    },
-                    "lblStrip": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": ""
-                    },
-                    "lblTime": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Timestamp"
+                        "text": "Label"
                     }
                 }
             ]
@@ -417,6 +177,9 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "counter": "19",
+    "disabledSkins": {
+        "widgetSkin": "s111d05c1e8d4ac2825bb675aaec251c"
+    },
     "focusedindex": null,
     "focuseditem": null,
     "generatedtemplate": null,
@@ -450,11 +213,11 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainselection": false,
-    "rowTemplateId": "aa022dcddf0a4bbbaff966f24863a896",
+    "rowTemplateId": "jabf8f62556e4a879ee5ef1b7055b370",
     "rowcounter": 9,
     "rowfocusskin": "s8625d636fa3490d8b2b518cd73879b2",
     "rowskin": "s3d07d23cba844c0a82a99f90c8d3988",
-    "rowtemplate": "flxSampleRowTemplate",
+    "rowtemplate": "flxRow",
     "screenlevelwidget": false,
     "seccounter": 1,
     "sectionHeaderTemplateId": "d6902d3aa7f149088b43133573f7777b",
@@ -465,7 +228,7 @@
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": 0,
+    "selectedsectionindex": null,
     "selectionbehavior": "default",
     "separatorcolor": "aaaaaa00",
     "separatorrequired": true,
@@ -476,12 +239,10 @@
     "wType": "Segment",
     "widgetalignment": 5,
     "widgetdatamap": {
-        "flxSampleRowTemplate": "flxSampleRowTemplate",
+        "flxRow": "flxRow",
         "flxSectionHeaderTemplate": "flxSectionHeaderTemplate",
-        "lblDescription": "lblDescription",
         "lblHeading": "lblHeading",
-        "lblStrip": "lblStrip",
-        "lblTime": "lblTime"
+        "lblName": "lblName"
     },
     "zindex": 2
 }
